@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <div id="app">
+
+        <form id="formusers">
+            
+            <h1>USERS</h1>
+            <label for='id'>
+                Id: <br><input type='number' id='id'>
+                <br><br>
+            </label>
+    
+            <label for='name'>
+                Name: <br><input type='text' id='name'>
+                <br><br>
+            </label>
+    
+            <label for='username'>
+                Username: <br><input type='text' id='username'>
+                <br><br>
+            </label>
+    
+            <label for='email'>
+                Email: <br><input type='text' id='email'>
+                <br><br>
+            </label>
+            <label for='phone'>
+                Phone: <br><input type='number' id='phone'>
+                <br><br>
+            </label>
+            <label for='website'>
+                Website: <br><input type='text' id='website'>
+                <br><br>
+            </label>
+
+            <h1>Company</h1>
+            <form id="formcompany">
+                <label for='companyname'>
+                    Company name: <br><input type='text' id='companyname'>
+                    <br><br>
+                </label>
+            <h1>Adress</h1>
+            <form id="formaddress">
+                <label for='street'>
+                    Street: <br><input type='text' id='street'>
+                    <br><br>
+                </label>
+                <label for='city'>
+                    City: <br><input type='text' id='city'>
+                    <br><br>
+                </label>
+                <label for='zipcode'>
+                    Zip Code: <br><input type='number' id='zipcode'>
+                    <br><br>
+                </label>
+                    <label for="userinfo">Choose a name
+                    <select id="userinfo">
+
+                    </select>
+                </label>
+            <button type='button' id='btnAdd'>Add</button>
+            <button type='button' id='btnDelete'>Delete</button>
+            <button type='button' id='btnSearch'>Search</button>
+            <button type='button' id='btnUp'>Up</button>
+            <button type='button' id='btnlist'>List Users</button>
+            <button type='Reset'>Reset</button>
+        </form><br>
+        <div id=blockmessage>
+            <div id="results"></div>
+            <div id="results2"></div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="app/app.js"></script>   
+</body>
+</html>

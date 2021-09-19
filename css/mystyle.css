@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    font-family:monospace;
+}
+
+ h1{
+     color:chartreuse;
+     font-family: monospace;
+ }
+
+ label{
+     color:chartreuse;
+     font-size: 15px;
+ }
+
+ button{
+     background-color: chartreuse;
+     font-family:monospace;
+     border-style:inset;
+ }
+
+ input{
+     background-color:black;
+     border-color:white;
+     color:chartreuse;
+     font-family: monospace;
+ }
+    .style1{
+    width:80%;
+    background-color:black;
+    border:0.3em solid chartreuse;
+    padding:3px;
+    margin:5px;
+
+    }
+
+    .alert{
+    width: 20%;
+    height: 30%;
+    background-color: black;
+    color:chartreuse;
+    }
+
+    .alert2{
+        width: 20%;
+        height: 30%;
+        background-color:black;
+        color:red;
+    }
+
+    p{
+     color:lawngreen;
+     font-family:monospace;
+    }
+
+    select{
+        background-color: black;
+        color:chartreuse;
+        font-family: monospace;
+        border-style: unset;
+    }
+
+    h2{
+        color:chartreuse;
+        font-family: monospace;
+    }
